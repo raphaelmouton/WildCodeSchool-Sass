@@ -28,8 +28,7 @@ $size: 50px;
     @include ring($size, black);
   }
 
-  .loops {
-    margin-left: 50px;
+  .circleLoop {
     text-align: center;
   }
 
