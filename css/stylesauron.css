@@ -1,0 +1,491 @@
+
+body {
+    background-image: url('../image/bg_light.png');
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Aniron';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    src: local('Aniron'), url('../font/anirm___.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Tengwar';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tengwar Annatar Bold'), url('../font/tengwar-annatar/tnganb.woff') format('woff');
+}
+
+section {
+    font-family: 'Aniron';
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 7vh;
+    margin-bottom: 55px;
+
+}
+
+h2:before, h2:after {
+    font-family: 'Tengwar';
+    content: "ij";
+    color: orangered;
+
+}
+
+h2 {
+    margin-left: 10vw;
+    font-size: 2.7vh;
+    line-height: 20px;
+    width: 80%;
+}
+
+p {
+    text-align: left;
+}
+
+a:hover {
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.write {
+    font-family: 'Tengwar';
+    color: orangered;
+
+}
+
+/* MENU */
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .modal-header::after, .modal-header::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
+    padding-top: 2px;
+}
+
+.container-fluid {
+    background-image: url(../image/bg_dark.png);
+    margin-left: 10vw;
+
+}
+
+.logo {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.logofooter {
+    padding-top: 5px;
+    max-width: 50px;
+}
+
+.navbar.navbar-default {
+    background-color: #ff5500;
+    color: #FFF;
+    font-family: 'Aniron';
+    width: 100%;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 0px;
+    margin: 0px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    margin-top: -10px;
+    color: white;
+    border-right: 2px solid #FFF;
+    margin: 0 3px -1px; /* -1 margin to move tab down 1px */
+    padding: 3px 8px 3px 5px;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+    background-color: #ff5500;
+}
+
+.navbar-toggle {
+    background-color: #FFF;
+
+}
+
+/* CAROUSSEL */
+
+.carousel-inner {
+    font-family: 'Aniron';
+    color: #FFF;
+}
+
+.maj {
+    font-size: 3.7vw;
+    width: 80%;
+}
+
+.min {
+    font-size: 1.7vh;
+    width: 80%;
+}
+
+.carousel-caption {
+    margin-bottom: 6vw;
+}
+
+/* PILLS */
+.textbold {
+    font-family: 'Aniron';
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.marge {
+    padding-left: 50px;
+}
+
+.container {
+    font-family: 'Aniron';
+
+}
+
+.nav-tabs > li, .nav-pills > li {
+    color: orange;
+    font-family: 'Aniron';
+}
+
+.nav-pills {
+    color: orange;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: orangered;
+    background-color: transparent;
+    border-bottom: 5px solid orangered;
+}
+
+.nav-pills > li > a {
+    color: grey;
+    padding-left: 35px;
+}
+
+.box {
+    position: relative;
+    width: 170px;
+
+}
+
+.box img {
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    transition: all 300ms ease-out 0s;
+    opacity: 0.5;
+
+}
+
+.box:hover img {
+    opacity: 1;
+}
+
+.box .caption {
+    position: absolute;
+    color: #000;
+    width: 100%;
+    left: 0;
+    top: 20%;
+}
+
+.orange {
+    color: orangered;
+}
+
+.box .simple-caption {
+    height: 60px;
+    width: 190px;
+    display: block;
+    margin-top: -30px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #EEE;
+    opacity: 0;
+    border-radius: 5px;
+    margin-left: 32px;
+    padding: 5px;
+    opacity: 1;
+    font-size: 18px;
+    transition: opacity 0.5s linear 0s;
+}
+
+.box .simple-caption .orange {
+    background-color: transparent;
+
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.barre-orange {
+    width: 50vw;
+    border: 2px solid orangered;
+    transform: skewX(-30deg);
+}
+
+.dead {
+
+    height: 60px;
+    width: 190px;
+    color: orangered;
+    display: block;
+    line-height: 85px;
+    text-align: center;
+    margin-left: 32px;
+    padding: 5px;
+    opacity: 1;
+    font-size: 18px;
+    transition: opacity 0.5s linear 0s;
+
+}
+
+.box .dead {
+    width: 250px;
+    height: 300px;
+    left: 0px;
+    transition: all 300ms ease-out 0s;
+    background-color: #000;
+    margin-top: -73px;
+    margin-left: 5px;
+    opacity: 0.8;
+
+}
+
+.gimli {
+    position: absolute;
+    color: #FFF;
+    width: 170px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 72px;
+    margin-top: 20px;
+    top: 35px;
+}
+
+.box:hover .simple-caption {
+    display: none;
+}
+
+.normal-text {
+    position: absolute;
+    color: #FFF;
+    width: 170px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 42px;
+    margin-top: 20px;
+    top: 35px;
+}
+
+.box:hover .normal-text {
+    position: absolute;
+    color: #FFF;
+    font-size: 25px;
+    width: 170px;
+    text-align: center;
+    top: 120px;
+
+}
+
+.row {
+    margin-top: 10px;
+
+}
+
+figure {
+    border: 5px solid black;
+    width: 260px;
+}
+
+figcaption {
+    background-color: #000;
+    height: 80px;
+    color: grey;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.content {
+    margin-left: -5vw;
+}
+
+/* jumbotron */
+
+.capture {
+    background-image: url(../image/bg_dark.png);
+    margin-left: -30px;
+    margin-top: 30px;
+    font-family: 'Aniron';
+    padding-left: 50px;
+
+    color: #FFF;
+
+}
+
+.btn-outline-primary {
+    width: 300px;
+    height: 50px;
+    margin-top: -70px;
+    margin-left: 30vw;
+    color: orangered;
+    font-size: 20px;
+    transform: skewX(-15deg);
+
+}
+
+.btn-outline-primary:hover {
+    background-color: #FFF;
+    width: 300px;
+    height: 50px;
+    margin-top: -70px;
+    margin-left: 30vw;
+    color: orangered;
+    font-size: 20px;
+    transform: skewX(-15deg);
+
+}
+
+.btn-dark {
+    background-color: #000;
+    transform: skewX(-15deg);
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #000;
+    transform: skewX(-15deg);
+    color: orangered;
+}
+
+.espace {
+    margin-top: 200px;
+}
+
+/* PANEL */
+
+.bring {
+
+    font-family: 'Aniron';
+    padding-top: 0px;
+    padding-left: 50px;
+}
+
+.bring .maj {
+    color: #FFF;
+
+}
+
+.panel {
+    border: 0px;
+}
+
+.panel .panel-heading {
+    background-color: orangered;
+    color: #FFF;
+}
+
+.panel-body {
+    color: #000;
+
+}
+
+td {
+    width: 80%;
+}
+
+.namegollum {
+    margin-top: 5px;
+    text-align: right;
+    color: #9b9a99;
+}
+
+.media-heading {
+    color: orangered;
+}
+
+.media-content {
+    font-size: 10px;
+}
+
+.more2 {
+    position: relative;
+    padding-top: 50px;
+    margin-left: 150px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.more3 {
+    position: relative;
+    margin-left: 100px;
+    color: orange;
+}
+
+.join {
+    margin-left: -3vw;
+}
+
+/*FORM */
+form {
+    margin-top: 10px;
+}
+
+.form-control {
+    height: 40px;
+}
+
+/* FOOTER*/
+
+footer {
+    background-color: orangered;
+    padding: 20px;
+    margin-top: -50px;
+
+}
+
+footer, li, a {
+    color: white;
+
+}
+
+footer, li, a:hover {
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.table > thead > tr > th {
+    border-bottom: 2px solid black;
+}
+
+.panel-default {
+    border-radius: 5px 10px 0 0px;
+    border-bottom: 3px solid orangered;
+}
