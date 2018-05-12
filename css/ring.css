@@ -1,7 +1,7 @@
 .orangeRing {
     width: 60px;
     height: 60px;
-    border: 3px solid orange;
+    border: 4px solid orange;
     border-radius: 30px;
     display: inline-block;
     box-shadow: 0px 0px 10px orange;
@@ -11,7 +11,7 @@
 .yellowRing {
     width: 300px;
     height: 300px;
-    border: 15px solid yellow;
+    border: 20px solid yellow;
     border-radius: 150px;
     display: inline-block;
     box-shadow: 0px 0px 10px yellow;
@@ -22,7 +22,7 @@
     margin-left: -35px;
     width: 65px;
     height: 65px;
-    border: 3.25px solid black;
+    border: 4.3333333333px solid black;
     border-radius: 32.5px;
     display: inline-block;
     box-shadow: 0px 0px 10px black;
@@ -38,7 +38,7 @@
     margin-left: -35px;
     width: 80px;
     height: 80px;
-    border: 4px solid black;
+    border: 5.3333333333px solid black;
     border-radius: 40px;
     display: inline-block;
     box-shadow: 0px 0px 10px black;
@@ -54,7 +54,7 @@
     margin-left: -35px;
     width: 95px;
     height: 95px;
-    border: 4.75px solid black;
+    border: 6.3333333333px solid black;
     border-radius: 47.5px;
     display: inline-block;
     box-shadow: 0px 0px 10px black;
@@ -70,7 +70,7 @@
     margin-left: -35px;
     width: 110px;
     height: 110px;
-    border: 5.5px solid black;
+    border: 7.3333333333px solid black;
     border-radius: 55px;
     display: inline-block;
     box-shadow: 0px 0px 10px black;
@@ -86,7 +86,7 @@
     margin-left: -35px;
     width: 125px;
     height: 125px;
-    border: 6.25px solid black;
+    border: 8.3333333333px solid black;
     border-radius: 62.5px;
     display: inline-block;
     box-shadow: 0px 0px 10px black;
@@ -102,7 +102,7 @@
     margin-left: -35px;
     width: 140px;
     height: 140px;
-    border: 7px solid black;
+    border: 9.3333333333px solid black;
     border-radius: 70px;
     display: inline-block;
     box-shadow: 0px 0px 10px black;
@@ -118,7 +118,7 @@
     margin-left: -35px;
     width: 155px;
     height: 155px;
-    border: 7.75px solid black;
+    border: 10.3333333333px solid black;
     border-radius: 77.5px;
     display: inline-block;
     box-shadow: 0px 0px 10px black;
